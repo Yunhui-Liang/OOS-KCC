@@ -1,0 +1,78 @@
+{
+  "dataset": "MFeat",
+  "original_inventory_id": "prepared_mfeat_mvc",
+  "n_samples": 2000,
+  "n_classes": 10,
+  "n_views": 6,
+  "original_content_signature_sha256": "a247edd4ef442d0dd5de203a71bfffa01f63454c392d8765a668d59fd98d2970",
+  "source_url": "https://archive.ics.uci.edu/static/public/72/multiple%2Bfeatures.zip",
+  "source_license_recorded": "CC BY 4.0",
+  "source_description": "Six aligned handwritten-digit feature sets: Fourier, profile, Karhunen-Love, pixels, Zernike and morphology.",
+  "representation": "Stored paper-seven-cohort float32 views; sample order preserved; model scaling is train-only.",
+  "labels": {
+    "file": "labels.npy",
+    "sha256_file": "ae40beda001693674edc94d925ee8268cfe68905f8f9aff800c8dcdfcd6c9448"
+  },
+  "views": [
+    {
+      "name": "view_fou",
+      "file": "views/view_00.npy",
+      "shape": [
+        2000,
+        76
+      ],
+      "dtype": "float32",
+      "sha256_file": "33c1c70008daa6b8ae0c436af19bc1f3da502bcdf4ca40b84bbf27896a0d8236"
+    },
+    {
+      "name": "view_fac",
+      "file": "views/view_01.npy",
+      "shape": [
+        2000,
+        216
+      ],
+      "dtype": "float32",
+      "sha256_file": "4d27891923ae57aa26acc7d136fb99720bb6f15f2000663469888c6a8c0cfde7"
+    },
+    {
+      "name": "view_kar",
+      "file": "views/view_02.npy",
+      "shape": [
+        2000,
+        64
+      ],
+      "dtype": "float32",
+      "sha256_file": "4385027cfd01b8434538233b08b30007e0d510ea46b079b8ab72d1fb728dc201"
+    },
+    {
+      "name": "view_pix",
+      "file": "views/view_03.npy",
+      "shape": [
+        2000,
+        240
+      ],
+      "dtype": "float32",
+      "sha256_file": "4507f6e621be6fcb150469dc11fdbec6396fbe0b93c481bd02fe8f61e06c0d03"
+    },
+    {
+      "name": "view_zer",
+      "file": "views/view_04.npy",
+      "shape": [
+        2000,
+        47
+      ],
+      "dtype": "float32",
+      "sha256_file": "a90fce487ec980948d6ae748844b171bb7ac5beef3cd0a8cc749630d377a88cc"
+    },
+    {
+      "name": "view_mor",
+      "file": "views/view_05.npy",
+      "shape": [
+        2000,
+        6
+      ],
+      "dtype": "float32",
+      "sha256_file": "c2543bfcfcde8b68f0bcb520d905bf6eb92b53598e76d89891282793bc09c1b7"
+    }
+  ]
+}
